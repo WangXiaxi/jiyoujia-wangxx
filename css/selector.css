@@ -1,0 +1,302 @@
+body {
+  font-family: Microsoft Yahei;
+}
+a {
+  cursor: pointer;
+}
+.clearfloat {
+  clear: both;
+}
+.outBig {
+  width: 100%;
+  margin-top: 10px;
+}
+.outBig .top {
+  width: 1190px;
+  height: 41px;
+  margin: auto;
+  font-size: 12px;
+  border: 1px solid #e8e8e8;
+  position: relative;
+  z-index: 10;
+}
+.outBig .top .topChoose {
+  height: 41px;
+  float: left;
+}
+.outBig .top .topChoose li {
+  height: 39px;
+  float: left;
+  line-height: 39px;
+}
+.outBig .top .topChoose li a {
+  float: left;
+  display: block;
+  height: 39px;
+  margin-left: -1px;
+  padding: 0 19px;
+  border-left: solid 1px #f5f5f5;
+  border-right: solid 1px #f5f5f5;
+  text-decoration: none;
+  color: #6d6d6d;
+}
+.outBig .top .topChoose li a:hover {
+  position: relative;
+  border-left: solid 1px #e8e8e8;
+  border-right: solid 1px #e8e8e8;
+  z-index: 1;
+}
+.outBig .top .topChoose li:first-of-type a {
+  border-left: none;
+  padding-left: 20px;
+}
+.outBig .top .inputDiv {
+  float: left;
+  width: 194px;
+  height: 41px;
+  border: solid 1px #f5f5f5;
+  border-top: solid 1px #e8e8e8;
+  border-bottom: solid 1px #e8e8e8;
+  color: #6d6d6d;
+  padding-left: 9px;
+  position: relative;
+  left: -1px;
+  top: -1px;
+}
+.outBig .top .inputDiv .line {
+  float: left;
+  display: block;
+  margin-top: 8px;
+  width: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+.outBig .top .inputDiv input[type="text"] {
+  float: left;
+  width: 55px;
+  padding: 0 4px;
+  height: 23px;
+  border: solid 1px #dfdfdf;
+  line-height: normal;
+  font-family: verdana, arial;
+  margin-top: 8px;
+}
+.outBig .top .inputDiv:hover {
+  z-index: 1;
+  border: 1px solid #ccc;
+}
+.outBig .top .inputDiv .sureIn {
+  float: left;
+  height: 23px;
+  color: #fff;
+  background: #f82800;
+  line-height: 23px;
+  margin-top: 8px;
+  border-radius: 2px;
+  width: 44px;
+  text-align: center;
+  margin-left: 10px;
+  display: none;
+}
+.outBig .top .inputDiv .sureIn:hover {
+  cursor: pointer;
+}
+.outBig .top .outPlace {
+  height: 39px;
+  padding: 0 10px;
+  float: left;
+  line-height: 39px;
+}
+.outBig .top .outPlace .span1 {
+  display: inline-block;
+  color: #6d6d6d;
+  cursor: pointer;
+  padding: 0 10px;
+  margin-left: 100px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  position: relative;
+  top: -1px;
+  z-index: 15;
+}
+.outBig .top .outPlace .span1 .icon {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: 2px;
+  width: 12px;
+  height: 16px;
+  background-image: url("../src/1.png");
+  transition: all 0.1s linear;
+}
+.outBig .top .outPlace span.span2 {
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #fff;
+}
+.outBig .top .loChoose {
+  width: 180px;
+  position: absolute;
+  z-index: 10;
+  left: 676px;
+  top: 39px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  text-align: center;
+  display: none;
+  padding: 10px 0px;
+}
+.outBig .top .loChoose a {
+  display: inline-block;
+  width: 89px;
+  text-align: left;
+  padding: 4px 10px;
+  float: left;
+  margin: 3px 0px;
+}
+.outBig .main {
+  width: 1190px;
+  font-size: 12px;
+  margin: 0 auto;
+  position: relative;
+}
+.outBig .main ul.ulBig {
+  width: 1300px;
+}
+.outBig .main ul.ulBig .item {
+  float: left;
+  margin-right: 20px;
+  width: 222px;
+  height: 360px;
+  border: 1px solid #e8e8e8;
+  color: #888;
+  margin-top: 20px;
+  position: relative;
+}
+.outBig .main ul.ulBig .item .xiangsi {
+  width: 220px;
+  height: 220px;
+}
+.outBig .main ul.ulBig .item a.imgA {
+  display: block;
+  width: 220px;
+  height: 220px;
+}
+.outBig .main ul.ulBig .item a.imgA img {
+  max-width: 220px;
+  max-height: 220px;
+}
+.outBig .main ul.ulBig .item .diff {
+  width: 220px;
+  height: 30px;
+  background-color: #f40;
+  position: absolute;
+  top: 220px;
+  opacity: 0.9;
+}
+.outBig .main ul.ulBig .item .diff a {
+  display: inline-block;
+  width: 110px;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
+.outBig .main ul.ulBig .item .diff .tong {
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+.outBig .main ul.ulBig .item .textIndex {
+  background-color: #fff;
+  z-index: 6;
+  position: relative;
+}
+.outBig .main ul.ulBig .item .outPrice {
+  color: #f40;
+  font-family: verdana, arial;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 11px;
+  height: 22px;
+  padding: 0 10px;
+}
+.outBig .main ul.ulBig .item .outPrice .price {
+  margin-left: 3px;
+  font-weight: 700;
+}
+.outBig .main ul.ulBig .item .outPrice i {
+  display: inline-block;
+  background: #f40;
+  font-size: 10px;
+  padding-bottom: 1px;
+  width: 25px;
+  font-family: Microsoft Yahei;
+  line-height: 14px;
+  color: #fff;
+  position: relative;
+  top: -3px;
+  left: 3px;
+}
+.outBig .main ul.ulBig .item .name {
+  display: block;
+  margin-top: 6px;
+  padding: 0 10px;
+  height: 36px;
+  font: 12px/1.5 Microsoft Yahei;
+  overflow: hidden;
+}
+.outBig .main ul.ulBig .item p {
+  padding: 0 10px;
+  font: 12px/1.5 Microsoft Yahei;
+}
+.outBig .main ul.ulBig .item .authorOut {
+  margin-top: 6px;
+  padding: 0 10px;
+}
+.outBig .main ul.ulBig .item .authorOut span {
+  float: right;
+}
+.outBig .main ul.ulBig .item .authorOut .addressBig {
+  margin-right: 3px;
+}
+.outBig .main ul.ulBig .item .i-bot {
+  padding: 0 10px;
+  height: 30px;
+  margin-top: 6px;
+  position: relative;
+}
+.outBig .main ul.ulBig .item .i-bot .buyBtn {
+  width: 50px;
+  text-align: center;
+  background: #ff0;
+  font-size: 14px;
+  line-height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  display: none;
+}
+.outBig .main ul.ulBig .item .i-bot .buyBtn:hover {
+  cursor: pointer;
+}
+.outBig .main .botNum {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.outBig .main .botNum .bottA {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #87ceeb;
+  margin: 6px;
+  line-height: 30px;
+  border: 1px solid #e8e8e8;
+}
+.outBig .main .botNum .bottA:hover {
+  border: 1px solid #f00;
+}
